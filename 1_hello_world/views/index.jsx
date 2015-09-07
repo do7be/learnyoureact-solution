@@ -1,13 +1,21 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 var React = require('react');
 
 var TodoBox = React.createClass({
-  render: function() {
-    return (
-      <div className="todoBox">
-        Hello, world!
-      </div>
+  displayName: "TodoBox",
+
+  render: function render() {
+    return React.createElement(
+      "div",
+      { className: "todoBox" },
+      "Hello, world!"
     );
   }
 });
 
-module.exports = TodoBox;
+exports["default"] = TodoBox;
+module.exports = exports["default"];
