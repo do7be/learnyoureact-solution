@@ -1,7 +1,7 @@
 let React = require('react');
 
 let TodoBox = React.createClass({
-  render: function() {
+  render: () => {
     return (
       <div className="todoBox">
         Hello, world!
@@ -10,4 +10,4 @@ let TodoBox = React.createClass({
   }
 });
 
-export default TodoBox
+export default TodoBox;
